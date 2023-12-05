@@ -1,0 +1,156 @@
+/* basic elements */
+
+body {
+  background: #ffffff url(bottom_right.jpg) bottom right no-repeat;
+  font: 8pt/11pt "Times New Roman", georgia, serif; 
+  color: #000000; 
+  margin: 0px;
+  padding: 0px; 
+}
+
+
+
+img {
+  height: 250px;
+  width: 900px
+}
+p { 
+  font: 8pt/11pt "Times New Roman", serif, georgia; 
+  margin-top: 0px; 
+  text-align: left;
+  margin-left: 10px;
+}
+
+abbr {
+  border: none;
+}
+
+a:link { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: #333333;
+}
+
+a:visited { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: #555555;
+}
+
+a:hover, a:active { 
+  text-decoration: underline; 
+  color: #555555;
+}
+
+/* specific divs */
+
+.intro {
+  background: #abcf74 top left no-repeat;
+  margin-top: 5px;
+  width: 253px;
+  float: left;
+}
+
+header h1, header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: #000000;
+}
+
+.summary {
+  width: 210px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.summary p {
+  font: bold italic 8pt/11pt "Times New Roman", serif, georgia;
+  color: #000000;
+  text-align: center;
+}
+
+.preamble {
+  width: 210px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.preamble p {
+  padding-left: 5px;
+  font: 8pt/14pt "Times New Roman", serif, georgia;
+  color:#000000
+}
+
+.supporting {
+  background: #d0e3b3 top left no-repeat;
+  position: relative;
+  margin-left: 258px;
+  top: 5px;
+  width: 360px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.supporting p {
+  width: 315px;
+  text-align: left;
+}
+
+.explanation {
+  padding-bottom: 10px;
+}
+
+.participation {
+  padding-bottom: 10px;
+}
+
+.benefits {
+  padding-bottom: 10px;
+}
+
+.requirements {
+  padding-bottom: 10px;
+}
+
+footer { 
+  text-align: center;
+  border-top: 1px solid #ffffff; 
+}
+
+footer a:link, footer a:visited { 
+  margin-right: 20px; 
+}
+
+.sidebar {
+  margin-left: 645px;
+  width: 125px;
+  position: absolute;
+  top: 250px;
+}
+
+.sidebar ul {
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.sidebar li {
+  line-height: 2.5ex; 
+  list-style-type: none;
+  padding-top: 5px; 
+  margin-bottom: 5px;
+}
+
+.sidebar li a:link { 
+  color: #74A12E;
+}
+
+.sidebar li a:visited {
+  color: 
+  #4d6b1d
+;
+}
