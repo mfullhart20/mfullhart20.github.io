@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tea Haven - Tea Types</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Discover Tea Types</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teatypespage.html">Tea Types</a></li>
+        <li><a href="aboutuspage.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Explore Different Tea Types</h2>
+    <table>
+      <tr>
+        <th>Tea Type</th>
+        <th>Description</th>
+        <th>Flavor</th>
+      </tr>
+      <tr>
+        <td>Green Tea</td>
+        <td>Non-oxidized tea with a fresh, grassy flavor.</td>
+        <td>Mild and slightly astringent.</td>
+      </tr>
+      <tr>
+        <td>Black Tea</td>
+        <td>Fully oxidized tea with a robust, bold flavor.</td>
+        <td>Rich and malty with a hint of sweetness.</td>
+      </tr>
+      <tr>
+        <td>Oolong Tea</td>
+        <td>Semi-oxidized tea with a wide range of flavors.</td>
+        <td>Complex with floral, fruity, and nutty notes.</td>
+      </tr>
+      <tr>
+        <td>Herbal Tea</td>
+        <td>Infusions made from herbs, flowers, and spices.</td>
+        <td>Varies based on ingredients; can be soothing or zesty.</td>
+      </tr>
+    </table>
+  </main>
+</body>
+
+</html>
