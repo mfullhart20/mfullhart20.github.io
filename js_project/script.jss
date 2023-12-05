@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tea Info App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tea Information</h1>
+    <input type="text" id="teaInput" placeholder="Enter tea type">
+    <button onclick="getTeaInfo()">Get Tea Info</button>
+    <div id="teaInfo" class="fadeIn"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
